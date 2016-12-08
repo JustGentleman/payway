@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pay</title>
+	<meta name="viewport" content="user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="stylesheets/pay.css">
+	<script type="text/javascript" src="js/shawn.js"></script>
+	<script>
+	function getShaw(){
+		// console.log('1');
+		// document.getElementById("all").style.display="block";
+		showid('paybox');
+	}
+window.onload=function(){
+	window.onresize();
+}
+// 当屏幕宽度改变的时候
+
+window.onresize = function(){
+		console.log('屏幕改变');
+	var oBody=document.getElementsByTagName("body")[0];
+	var oUl=document.getElementsByTagName("ul")[0];
+	var jia=document.getElementById("jia");
+	var jia1=document.getElementById("jia1");
+	var jia2=document.getElementById("jia2");
+	// console.log(oBody.offsetWidth);
+	// console.log(oBody.offsetHeight);
+		if(oBody.offsetWidth<oBody.offsetHeight){
+			console.log('宽度小于高度');
+			oUl.style.width="19.5rem";
+			jia.style.left="9.2rem";
+			jia1.style.left="15.8rem";
+			jia2.style.left="15.8rem";
+		}else if(oBody.offsetWidth>oBody.offsetHeight){
+			console.log('宽度大于高度');
+			oUl.style.width="26rem";
+			jia.style.left="6rem";
+			jia1.style.left="12.6rem";
+			jia2.style.left="12.6rem";
+		}
+}
+	</script>
+</head>
+<body>
+<button  onclick="getShaw()">我要支付</button>
+<!-- 阴影以及支付部分 -->
+<!-- <div id="all"> -->
+	<div id="paybox" class="clearfix">
+	<div id="login_close"><img src="images/1200-750_03.png"></div>
+		<div class="top">
+			<h2>游戏支付</h2>
+		</div>
+		<ul class="clearfix paylist">
+			<li><a href="#">
+					<div id="jia"></div>
+				<div class="paytle">
+					<div class="tpc" id="pic1"></div>
+					<div class="bot">paypal</div>
+				</div>
+				</a>
+			</li>
+			<li><a href="#">
+			<div id="jia1"></div>
+				<div class="paytle">
+					<div class="tpc" id="pic2"></div>
+					<div class="bot">Credit</div>
+				</div></a>
+			</li>
+			<li><a href="#">
+				<div class="paytle">
+					<div class="tpc" id="pic3"></div>
+					<div class="bot">Mycord扣点</div>
+				</div></a>
+			</li>
+			<li><a href="#">
+				<div class="paytle">
+					<div class="tpc" id="pic4"></div>
+					<div class="bot">点卡储值</div>
+				</div></a>
+			</li>
+			<li><a href="#">
+			<div id="jia2"></div>
+				<div class="paytle">
+					<div class="tpc" id="pic5"></div>
+					<div class="bot">Mycard扣点2</div>
+				</div></a>
+			</li>
+			<li><a href="#">
+				<div class="paytle">
+					<div class="tpc" id="pic6"></div>
+					<div class="bot">本地支付2</div>
+				</div></a>
+			</li>
+			<li><a href="#">
+				<div class="paytle">
+					<div class="tpc" id="pic7"></div>
+					<div class="bot">Jpoint</div>
+				</div></a>
+			</li>
+			<li><a href="#">
+				<div class="paytle">
+					<div class="tpc" id="pic8"></div>
+					<div class="bot">其他支付</div>
+				</div></a>
+			</li>
+		</ul>
+	</div><!-- paybox -->
+<!--</div> -->
+</body>
+</html>
