@@ -63,67 +63,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 2, ../sass/pay.scss */
-body, html {
-  width: 100%;
-  height: 100%;
-  font-family: "Microsoft YaHei";
-}
-
-/* line 4, ../sass/pay.scss */
-html {
-  font-size: 10px;
-}
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  /* line 5, ../sass/pay.scss */
-  html {
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 376px) and (max-width: 414px) {
-  /* line 6, ../sass/pay.scss */
-  html {
-    font-size: 15px;
-  }
-}
-@media screen and (min-width: 415px) and (max-width: 639px) {
-  /* line 7, ../sass/pay.scss */
-  html {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 640px) and (max-width: 719px) {
-  /* line 8, ../sass/pay.scss */
-  html {
-    font-size: 22px;
-  }
-}
-@media screen and (min-width: 720px) and (max-width: 749px) {
-  /* line 9, ../sass/pay.scss */
-  html {
-    font-size: 24.5px;
-  }
-}
-@media screen and (min-width: 750px) and (max-width: 799px) {
-  /* line 10, ../sass/pay.scss */
-  html {
-    font-size: 26.5px;
-  }
-}
-@media screen and (min-width: 800px) {
-  /* line 11, ../sass/pay.scss */
-  html {
-    font-size: 28px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  /* line 12, ../sass/pay.scss */
-  html {
-    font-size: 29px;
-  }
-}
-/* line 14, ../sass/pay.scss */
+/* line 3, ../sass/pay.scss */
 .clearfix:after {
   content: ".";
   display: block;
@@ -133,142 +73,180 @@ html {
   visibility: hidden;
 }
 
-/* line 16, ../sass/pay.scss */
+/* line 5, ../sass/pay.scss */
 .clearfix {
   zoom: 1;
 }
 
-/* line 17, ../sass/pay.scss */
+/* line 6, ../sass/pay.scss */
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: "Microsoft YaHei";
+}
+
+/* line 8, ../sass/pay.scss */
+html {
+  font-size: 10px;
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  /* line 9, ../sass/pay.scss */
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  /* line 10, ../sass/pay.scss */
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 639px) {
+  /* line 11, ../sass/pay.scss */
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 719px) {
+  /* line 12, ../sass/pay.scss */
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 749px) {
+  /* line 13, ../sass/pay.scss */
+  html {
+    font-size: 24.5px;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 799px) {
+  /* line 14, ../sass/pay.scss */
+  html {
+    font-size: 26.5px;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 15, ../sass/pay.scss */
+  html {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 16, ../sass/pay.scss */
+  html {
+    font-size: 29px;
+  }
+}
+/* line 19, ../sass/pay.scss */
 #paybox {
   display: none;
   width: 80%;
   background-color: #000;
   z-index: 1;
 }
-/* line 19, ../sass/pay.scss */
+/* line 21, ../sass/pay.scss */
 #paybox #login_close {
   float: right;
-  margin-top: 0.8rem;
+  margin-top: 1.0rem;
   margin-right: 0.8rem;
 }
-/* line 20, ../sass/pay.scss */
+/* line 23, ../sass/pay.scss */
+#paybox #login_close img {
+  width: 1rem;
+}
+/* line 25, ../sass/pay.scss */
 #paybox .top {
   margin-top: 1rem;
 }
-/* line 22, ../sass/pay.scss */
+/* line 27, ../sass/pay.scss */
 #paybox .top h2 {
   display: block;
   margin: 0 auto;
   text-align: center;
-  width: 24rem;
-  border-bottom: 0.1rem solid #c8c8c8;
+  width: 25rem;
+  margin-top: 0.8rem;
   padding-bottom: 0.6rem;
   color: #000000;
+  border-bottom: 0.1rem solid #c8c8c8;
 }
-/* line 25, ../sass/pay.scss */
+/* line 30, ../sass/pay.scss */
 #paybox ul.paylist {
   width: 26rem;
   margin: 2% auto;
 }
-/* line 26, ../sass/pay.scss */
+/* line 31, ../sass/pay.scss */
 #paybox ul.paylist li {
   float: left;
   padding: 0.5rem;
-  position: relative;
 }
-/* line 27, ../sass/pay.scss */
+/* line 32, ../sass/pay.scss */
 #paybox ul.paylist li a {
   display: inline-block;
-}
-/* line 28, ../sass/pay.scss */
-#paybox ul.paylist li #jia {
-  text-align: center;
-  color: #fff;
-  line-height: 0.8rem;
-  width: 1.6rem;
-  height: 1.6rem;
-  -webkit-tap-highlight-color: transparent;
-  background: url(../images/1200-750_07.png) no-repeat center center;
-  background-size: contain;
-  position: absolute;
-  top: 3.2rem;
-  left: 6rem;
+  -webkit-tap-highlight-color: rgba(192, 192, 192, 0);
 }
 /* line 33, ../sass/pay.scss */
-#paybox ul.paylist li #jia1 {
+#paybox ul.paylist li .jia {
   text-align: center;
   color: #fff;
   line-height: 0.8rem;
+  z-index: 20000;
   width: 1.6rem;
   height: 1.6rem;
   -webkit-tap-highlight-color: transparent;
   background: url(../images/1200-750_07.png) no-repeat center center;
   background-size: contain;
-  position: absolute;
-  top: 3.2rem;
-  left: 12.8rem;
+  float: right;
+  margin-top: -0.6rem;
+  margin-right: -0.8rem;
 }
 /* line 38, ../sass/pay.scss */
-#paybox ul.paylist li #jia2 {
-  text-align: center;
-  color: #fff;
-  line-height: 0.8rem;
-  width: 1.6rem;
-  height: 1.6rem;
-  -webkit-tap-highlight-color: transparent;
-  background: url(../images/1200-750_07.png) no-repeat center center;
-  background-size: contain;
-  position: absolute;
-  top: 7.8rem;
-  left: 12.8rem;
-}
-/* line 43, ../sass/pay.scss */
 #paybox ul.paylist li .paytle {
   width: 5.5rem;
   /*height:3.5rem;*/
   webkit-tap-highlight-color: transparent;
 }
-/* line 45, ../sass/pay.scss */
+/* line 40, ../sass/pay.scss */
 #paybox ul.paylist li .paytle #pic1 {
   background: url(../images/1.png) no-repeat center center;
   background-size: 4rem 1.2rem;
 }
-/* line 47, ../sass/pay.scss */
+/* line 42, ../sass/pay.scss */
 #paybox ul.paylist li .paytle #pic2 {
   background: url(../images/mycard.png) no-repeat center center;
   background-size: 4rem 1.2rem;
 }
-/* line 49, ../sass/pay.scss */
+/* line 44, ../sass/pay.scss */
 #paybox ul.paylist li .paytle #pic3 {
   background: url(../images/all.jpg) no-repeat center center;
   background-size: 4rem 2rem;
 }
-/* line 51, ../sass/pay.scss */
+/* line 46, ../sass/pay.scss */
 #paybox ul.paylist li .paytle #pic4 {
   background: url(../images/mycard.png) no-repeat center center;
   background-size: 4rem 1.2rem;
 }
-/* line 53, ../sass/pay.scss */
+/* line 48, ../sass/pay.scss */
 #paybox ul.paylist li .paytle #pic5 {
   background: url(../images/mycard.png) no-repeat center center;
   background-size: 4rem 1.2rem;
 }
-/* line 55, ../sass/pay.scss */
+/* line 50, ../sass/pay.scss */
 #paybox ul.paylist li .paytle #pic6 {
   background: url(../images/jp.png) no-repeat center center;
   background-size: 4rem  0.8rem;
 }
-/* line 57, ../sass/pay.scss */
+/* line 52, ../sass/pay.scss */
 #paybox ul.paylist li .paytle #pic7 {
   background: url(../images/jp.png) no-repeat center center;
   background-size: 4rem  0.8rem;
 }
-/* line 59, ../sass/pay.scss */
+/* line 54, ../sass/pay.scss */
 #paybox ul.paylist li .paytle #pic8 {
   background: url(../images/other.jpg) no-repeat center center;
   background-size: 4rem 1.8rem;
 }
-/* line 61, ../sass/pay.scss */
+/* line 56, ../sass/pay.scss */
 #paybox ul.paylist li .paytle .tpc {
   width: 5.5rem;
   height: 2.5rem;
@@ -282,7 +260,7 @@ html {
   border-bottom: none;
   float: left;
 }
-/* line 67, ../sass/pay.scss */
+/* line 62, ../sass/pay.scss */
 #paybox ul.paylist li .paytle .bot {
   color: white;
   width: 5.5rem;

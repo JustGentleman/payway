@@ -1,0 +1,274 @@
+/* line 5, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/pay2.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/* line 4, ../sass/pay2.scss */
+.clearfix {
+  zoom: 1;
+}
+
+/* line 5, ../sass/pay2.scss */
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: "Microsoft YaHei";
+  background-color: #f1f1f4;
+}
+
+/* line 7, ../sass/pay2.scss */
+.hidden {
+  display: none;
+}
+
+/* line 8, ../sass/pay2.scss */
+.th-top {
+  width: 100%;
+  height: 50px;
+  background-color: #37b0fc;
+  background-size: contain;
+}
+/* line 9, ../sass/pay2.scss */
+.th-top .th-return {
+  display: block;
+  float: left;
+  margin-top: 16px;
+  margin-left: 18px;
+}
+/* line 10, ../sass/pay2.scss */
+.th-top .th-return img {
+  width: 12px;
+}
+
+/* line 13, ../sass/pay2.scss */
+.th-1 {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-indent: 25px;
+}
+/* line 14, ../sass/pay2.scss */
+.th-1 .th-yellow {
+  color: #ffb400;
+}
+
+/* line 16, ../sass/pay2.scss */
+.th-2 {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-indent: 25px;
+}
+
+/* line 18, ../sass/pay2.scss */
+a {
+  display: block;
+}
+
+/* line 20, ../sass/pay2.scss */
+.th-cos {
+  color: #000;
+  margin-top: 8px;
+  margin-left: 12.5px;
+  margin-right: 12.5px;
+  width: auto;
+  height: 42px;
+  line-height: 42px;
+  background-color: #ddd;
+  point: cursor;
+}
+/* line 23, ../sass/pay2.scss */
+.th-cos p {
+  float: left;
+  text-indent: 10px;
+  font-size: 16px;
+}
+/* line 24, ../sass/pay2.scss */
+.th-cos span#meiguo {
+  display: inline-block;
+  float: left;
+  width: 40px;
+  height: 30px;
+  margin-top: 6px;
+  margin-left: 6px;
+  background: url(../images/750-1200_07.png) no-repeat center center;
+  background-size: contain;
+}
+/* line 26, ../sass/pay2.scss */
+.th-cos span#global {
+  display: inline-block;
+  float: left;
+  width: 40px;
+  height: 30px;
+  margin-top: 6px;
+  margin-left: 6px;
+  background: url(../images/750-1200_11.png) no-repeat center center;
+  background-size: contain;
+}
+/* line 28, ../sass/pay2.scss */
+.th-cos span#Thailand {
+  display: inline-block;
+  float: left;
+  width: 40px;
+  height: 30px;
+  margin-top: 6px;
+  margin-left: 6px;
+  background: url(../images/750-1200_15.png) no-repeat center center;
+  background-size: contain;
+}
+/* line 30, ../sass/pay2.scss */
+.th-cos i[data-icon='down'] {
+  display: block;
+  float: right;
+  margin-right: 10px;
+}
+/* line 32, ../sass/pay2.scss */
+.th-cos i[data-icon='down'] img {
+  width: 20px;
+}
+/* line 34, ../sass/pay2.scss */
+.th-cos i[data-icon='up'] {
+  display: block;
+  float: right;
+  margin-right: 10px;
+}
+/* line 36, ../sass/pay2.scss */
+.th-cos i[data-icon='up'] img {
+  width: 20px;
+}
+
+/* line 40, ../sass/pay2.scss */
+ul.paylist2 {
+  width: 330px;
+  padding: 0 15px;
+  margin: 12.5px auto;
+}
+/* line 41, ../sass/pay2.scss */
+ul.paylist2 li {
+  float: left;
+  padding: 10px;
+}
+/* line 42, ../sass/pay2.scss */
+ul.paylist2 li a {
+  display: inline-block;
+  -webkit-tap-highlight-color: rgba(192, 192, 192, 0);
+}
+/* line 43, ../sass/pay2.scss */
+ul.paylist2 li .jia {
+  text-align: center;
+  color: #fff;
+  z-index: 20000;
+  width: 28px;
+  height: 28px;
+  -webkit-tap-highlight-color: transparent;
+  background: url(../images/1200-750_07.png) no-repeat center center;
+  background-size: contain;
+  float: right;
+  margin-top: -10px;
+  margin-right: -12.5px;
+}
+/* line 48, ../sass/pay2.scss */
+ul.paylist2 li .paytle {
+  width: 90px;
+  /*height:3.5rem;*/
+}
+/* line 50, ../sass/pay2.scss */
+ul.paylist2 li .paytle #pic1 {
+  background: url(../images/1.png) no-repeat center center;
+  background-size: 70px 20px;
+}
+/* line 53, ../sass/pay2.scss */
+ul.paylist2 li .paytle .tpc {
+  width: 90px;
+  height: 50px;
+  /*background-size:contain;*/
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  border: 0.1rem solid #ddd;
+  border-bottom: none;
+  float: left;
+}
+/* line 59, ../sass/pay2.scss */
+ul.paylist2 li .paytle .bot {
+  color: white;
+  width: 90px;
+  height: 20px;
+  background-color: #37b0fc;
+  float: left;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+}
